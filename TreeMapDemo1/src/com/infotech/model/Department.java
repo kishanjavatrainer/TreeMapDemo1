@@ -7,12 +7,12 @@ public class Department {
 	private String deptLocation;
 	
 	public Department(Integer deptId, String deptName, String deptLocation) {
-		super();
+//		super(); useless keyword
 		this.deptId = deptId;
 		this.deptName = deptName;
 		this.deptLocation = deptLocation;
 	}
-	@Override
+//	@Override
 	public String toString() {
 		return "Department [deptId=" + deptId + ", deptName=" + deptName + ", deptLocation=" + deptLocation + "]";
 	}
